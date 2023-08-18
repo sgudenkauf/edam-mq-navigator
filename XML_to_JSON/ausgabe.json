@@ -1,0 +1,521 @@
+[
+    {
+        "name": "Cy22",
+        "description": "",
+        "children": [
+            {
+                "name": "Cybus Connectware",
+                "description": "",
+                "children": [
+                    {
+                        "name": "Cybus Connectware as a",
+                        "description": "",
+                        "children": [
+                            {
+                                "name": "Industrial Edge Connectware",
+                                "description": "",
+                                "children": [
+                                    {
+                                        "name": "Access Control",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "SSO",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Identity Provider",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "Management",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Enterprise IT Compliant",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "Active Directory",
+                                                "description": "",
+                                                "children": [
+                                                    {
+                                                        "name": "LDAP",
+                                                        "description": "",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Audit Logs",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "High Availability",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Clustered Deployment",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Backups",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Monitoring",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Authentication",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "JSON WebTokens",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "X.509 certificates",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "User/Outside Client Protocols",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "MQTT",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "REST",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "API",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "OPC UA Server",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Pre-Processing",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "Data Normalization",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Custom Formats",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Processing Logic",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Mapping and Routing",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Machine / Sensor connunication Protocols",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "BACnet",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "OPC-UA",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "HTTP",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "...",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Rule Engine and Data Forming",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "Data Flow rules",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Template Engine",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "payload transformation",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "data distribution",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Multi Tenancy",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "single point of data management",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Shopfloor Data Inventory",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "machine tagging",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "machine hierarchical structure",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Industrial Edge Databus",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "MQTT Broker",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Protocol Mapper",
+                                        "description": "Simple mapping scheme that translates legacy protocols to a unified MQTT/JSON API. Device Connection management is included. Mappings are defined with an easy to write and deployable yaml file format",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Service Catalog",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Infrastructure as code",
+                                        "description": "",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Trusted IoT Gateway",
+                                "description": "",
+                                "children": [
+                                    {
+                                        "name": "Direct Legacy Protocol Support",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "Modbus",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Bacnet",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "OPC-UA [2]",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Siemens S7",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Profinet",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "....",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Deployment Options",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "full Connectware",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Connectware Agent",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Security",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "access control",
+                                                "description": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "identity management layer",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Crossing Company Borders",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "granular data sharing",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Trustworthy",
+                                        "description": "",
+                                        "children": [
+                                            {
+                                                "name": "Industrial Data Space Connector DIN27070",
+                                                "description": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sustainable",
+                                        "description": "",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Connectivity Strategy",
+                        "description": "",
+                        "children": [
+                            {
+                                "name": "unified output format",
+                                "description": "",
+                                "children": [
+                                    {
+                                        "name": "JSON/MQTT API",
+                                        "description": "",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "stream shaping",
+                                "description": "",
+                                "children": [
+                                    {
+                                        "name": "JSONata transformations",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "COV Filters",
+                                        "description": "",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "processing",
+                                "description": "",
+                                "children": [
+                                    {
+                                        "name": "normalization",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "aggregation",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "filtering",
+                                        "description": "",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "data-source management",
+                                "description": "",
+                                "children": [
+                                    {
+                                        "name": "reconnect-handling",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "connection status",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "device logging",
+                                        "description": "",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "distributed architecture",
+                                "description": "",
+                                "children": [
+                                    {
+                                        "name": "network separation",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "load distribution",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "design considerations",
+                                        "description": "",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "automatable",
+                                "description": "",
+                                "children": [
+                                    {
+                                        "name": "device configuration",
+                                        "description": "",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "full REST API ",
+                                        "description": "",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "time-series data",
+                                "description": "polling or subscribing depending on source protocol",
+                                "children": []
+                            },
+                            {
+                                "name": "burst-mode",
+                                "description": "aggregation of high-sampling-rate data into fewer messages (up to 5ms sampling rate\n\t\t\t\t\tsupported depending on source protocol",
+                                "children": []
+                            },
+                            {
+                                "name": "message buffering",
+                                "description": "",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Security Model",
+                        "description": "",
+                        "children": [
+                            {
+                                "name": "token-based authentication JWT",
+                                "description": "",
+                                "children": []
+                            },
+                            {
+                                "name": "certificate based authentication",
+                                "description": "",
+                                "children": []
+                            },
+                            {
+                                "name": "TLS on all channels",
+                                "description": "",
+                                "children": []
+                            },
+                            {
+                                "name": "identity provider for services SSO proxy",
+                                "description": "",
+                                "children": []
+                            },
+                            {
+                                "name": "strict encapsulation of service containers",
+                                "description": "",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+# Created by Janek Behrens on 15.08.23.
+v.0.6
++ Added detection if description exists in XML converter, and choose color automatically
++ Added main.py for running
+
+v.0.5
++ Added platform recognition for Windows and MacOS
+
+v.0.4
++ Added XML to JSON Converter to GUI (File>Convert XML to JSON)
++ Added graphical file selector for XML files only
++ Implemented a graphical output of saving path
+
+v.0.3
++ Added XML to JSON converter
++ Added editable Colors on right click in GUI

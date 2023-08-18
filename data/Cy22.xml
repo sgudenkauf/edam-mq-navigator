@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="vertical"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="4"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="Cy22">
+			<and abstract="true" name="Cybus Connectware">
+				<and name="Cybus Connectware as a">
+					<and name="Industrial Edge Connectware">
+						<feature name="Industrial Edge Databus"/>
+						<feature name="MQTT Broker"/>
+						<feature name="Protocol Mapper">
+							<description>Simple mapping scheme that translates legacy protocols to a unified MQTT/JSON API. Device Connection management is included. Mappings are defined with an easy to write and deployable yaml file format</description>
+						</feature>
+						<and name="Access Control">
+							<feature name="SSO"/>
+						</and>
+						<and name="Identity Provider">
+							<feature name="Management"/>
+						</and>
+						<feature name="Service Catalog"/>
+						<and name="Enterprise IT Compliant">
+							<and name="Active Directory">
+								<feature name="LDAP"/>
+							</and>
+							<feature name="Audit Logs"/>
+							<feature name="High Availability"/>
+							<feature name="Clustered Deployment"/>
+							<feature name="Backups"/>
+							<feature name="Monitoring"/>
+						</and>
+						<and name="Authentication">
+							<feature name="JSON WebTokens"/>
+							<feature name="X.509 certificates"/>
+						</and>
+						<and name="User/Outside Client Protocols">
+						<feature name="MQTT"/>
+						<feature name="REST"/>
+						<feature name="API"/>
+						<feature name="OPC UA Server"/>
+					</and>
+					<and name="Pre-Processing">
+						<feature name="Data Normalization"/>
+						<feature name="Custom Formats"/>
+						<feature name="Processing Logic"/>
+						<feature name="Mapping and Routing"/>
+					</and>
+					<and name="Machine / Sensor connunication Protocols">
+					<feature name="BACnet"/>
+					<feature name="OPC-UA"/>
+					<feature name="HTTP"/>
+					<feature name="..."/>
+				</and>
+				<and name="Rule Engine and Data Forming">
+					<feature name="Data Flow rules"/>
+					<feature name="Template Engine"/>
+					<feature name="payload transformation"/>
+					<feature name="data distribution"/>
+				</and>
+				<and name="Multi Tenancy">
+					<feature name="single point of data management"/>
+				</and>
+				<and name="Shopfloor Data Inventory">
+					<feature name="machine tagging"/>
+					<feature name="machine hierarchical structure"/>
+				</and>
+				<feature name="Infrastructure as code"/>
+			</and>
+			<and name="Trusted IoT Gateway">
+				<and name="Direct Legacy Protocol Support">
+					<feature name="Modbus"/>
+					<feature name="Bacnet"/>
+					<feature name="OPC-UA [2]"/>
+					<feature name="Siemens S7"/>
+					<feature name="Profinet"/>
+					<feature name="...."/>
+				</and>
+				<and name="Deployment Options">
+					<feature name="full Connectware"/>
+					<feature name="Connectware Agent"/>
+				</and>
+				<and name="Security">
+					<feature name="access control"/>
+					<feature name="identity management layer"/>
+				</and>
+				<feature name="Sustainable"/>
+				<and name="Crossing Company Borders">
+					<feature name="granular data sharing"/>
+				</and>
+				<and name="Trustworthy">
+					<feature name="Industrial Data Space Connector DIN27070"/>
+				</and>
+			</and>
+		</and>
+		<and name="Connectivity Strategy">
+			<feature name="time-series data">
+				<description>polling or subscribing depending on source protocol</description>
+			</feature>
+			<feature name="burst-mode">
+				<description>
+					aggregation of high-sampling-rate data into fewer messages (up to 5ms sampling rate
+					supported depending on source protocol
+				</description>
+			</feature>
+			<and name="unified output format">
+				<feature name="JSON/MQTT API"/>
+			</and>
+			<and name="stream shaping">
+				<feature name="JSONata transformations"/>
+				<feature name="COV Filters"/>
+			</and>
+			<and name="processing">
+				<feature name="normalization"/>
+				<feature name="aggregation"/>
+				<feature name="filtering"/>
+			</and>
+			<and name="data-source management">
+				<feature name="reconnect-handling"/>
+				<feature name="connection status"/>
+				<feature name="device logging"/>
+			</and>
+			<feature name="message buffering"/>
+			<and name="distributed architecture">
+				<feature name="network separation"/>
+				<feature name="load distribution"/>
+				<feature name="design considerations"/>
+			</and>
+			<and name="automatable">
+				<feature name="device configuration"/>
+				<feature name="full REST API "/>
+			</and>
+		</and>
+		<and name="Security Model">
+			<feature name="token-based authentication JWT"/>
+			<feature name="certificate based authentication"/>
+			<feature name="TLS on all channels"/>
+			<feature name="identity provider for services SSO proxy"/>
+			<feature name="strict encapsulation of service containers"/>
+		</and>
+	</and>
+</and>
+</struct>
+</featureModel>

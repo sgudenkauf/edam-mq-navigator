@@ -1,0 +1,619 @@
+[
+    {
+        "name": "Cy22",
+        "description": "",
+        "color": "#FF9933",
+        "children": [
+            {
+                "name": "Cybus Connectware",
+                "description": "",
+                "color": "#FF9933",
+                "children": [
+                    {
+                        "name": "Cybus Connectware as a",
+                        "description": "",
+                        "color": "#FF9933",
+                        "children": [
+                            {
+                                "name": "Industrial Edge Connectware",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": [
+                                    {
+                                        "name": "Access Control",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "SSO",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Identity Provider",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "Management",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Enterprise IT Compliant",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "Active Directory",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": [
+                                                    {
+                                                        "name": "LDAP",
+                                                        "description": "",
+                                                        "color": "#FF9933",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Audit Logs",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "High Availability",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Clustered Deployment",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Backups",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Monitoring",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Authentication",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "JSON WebTokens",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "X.509 certificates",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "User/Outside Client Protocols",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "MQTT",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "REST",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "API",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "OPC UA Server",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Pre-Processing",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "Data Normalization",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Custom Formats",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Processing Logic",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Mapping and Routing",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Machine / Sensor connunication Protocols",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "BACnet",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "OPC-UA",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "HTTP",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "...",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Rule Engine and Data Forming",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "Data Flow rules",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Template Engine",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "payload transformation",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "data distribution",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Multi Tenancy",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "single point of data management",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Shopfloor Data Inventory",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "machine tagging",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "machine hierarchical structure",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Industrial Edge Databus",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "MQTT Broker",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Protocol Mapper",
+                                        "description": "Simple mapping scheme that translates legacy protocols to a unified MQTT/JSON API. Device Connection management is included. Mappings are defined with an easy to write and deployable yaml file format",
+                                        "color": "#FFFFFF",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Service Catalog",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "Infrastructure as code",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Trusted IoT Gateway",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": [
+                                    {
+                                        "name": "Direct Legacy Protocol Support",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "Modbus",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Bacnet",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "OPC-UA [2]",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Siemens S7",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Profinet",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "....",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Deployment Options",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "full Connectware",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Connectware Agent",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Security",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "access control",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "identity management layer",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Crossing Company Borders",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "granular data sharing",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Trustworthy",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": [
+                                            {
+                                                "name": "Industrial Data Space Connector DIN27070",
+                                                "description": "",
+                                                "color": "#FF9933",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sustainable",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Connectivity Strategy",
+                        "description": "",
+                        "color": "#FF9933",
+                        "children": [
+                            {
+                                "name": "unified output format",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": [
+                                    {
+                                        "name": "JSON/MQTT API",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "stream shaping",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": [
+                                    {
+                                        "name": "JSONata transformations",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "COV Filters",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "processing",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": [
+                                    {
+                                        "name": "normalization",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "aggregation",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "filtering",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "data-source management",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": [
+                                    {
+                                        "name": "reconnect-handling",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "connection status",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "device logging",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "distributed architecture",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": [
+                                    {
+                                        "name": "network separation",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "load distribution",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "design considerations",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "automatable",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": [
+                                    {
+                                        "name": "device configuration",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "full REST API ",
+                                        "description": "",
+                                        "color": "#FF9933",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "time-series data",
+                                "description": "polling or subscribing depending on source protocol",
+                                "color": "#FFFFFF",
+                                "children": []
+                            },
+                            {
+                                "name": "burst-mode",
+                                "description": "aggregation of high-sampling-rate data into fewer messages (up to 5ms sampling rate\n\t\t\t\t\tsupported depending on source protocol",
+                                "color": "#FFFFFF",
+                                "children": []
+                            },
+                            {
+                                "name": "message buffering",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Security Model",
+                        "description": "",
+                        "color": "#FF9933",
+                        "children": [
+                            {
+                                "name": "token-based authentication JWT",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": []
+                            },
+                            {
+                                "name": "certificate based authentication",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": []
+                            },
+                            {
+                                "name": "TLS on all channels",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": []
+                            },
+                            {
+                                "name": "identity provider for services SSO proxy",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": []
+                            },
+                            {
+                                "name": "strict encapsulation of service containers",
+                                "description": "",
+                                "color": "#FF9933",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

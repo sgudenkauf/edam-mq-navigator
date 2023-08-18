@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="vertical"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="4"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="DE17">
+			<and name="Core functionalities">
+				<and name="decoupling">
+					<feature name="Entity decoupling"/>
+					<feature name="Time decoupling"/>
+					<feature name="Synchronization decoupling"/>
+				</and>
+				<and name="routing logic / subscription model">
+				<feature name="topic-based subscription"/>
+				<feature name="content-based subscription"/>
+			</and>
+		</and>
+		<and name="Quality of Service [QoS]">
+			<and name="Correctness">
+				<and name="Delivery Guarantees">
+					<feature name="at most once / best effort"/>
+					<feature name="at least once"/>
+					<feature name="exactly once"/>
+				</and>
+				<and name="Ordering Guarantees">
+					<feature name="no ordering"/>
+					<feature name="partitioned ordering"/>
+					<feature name="global order"/>
+				</and>
+			</and>
+			<feature name="Reliability"/>
+			<and name="Availability">
+				<feature name="uptime"/>
+			</and>
+			<feature name="Transactions"/>
+			<feature name="Scalability"/>
+			<and name="Efficiency">
+				<feature name="Latency"/>
+				<feature name="Throughput"/>
+			</and>
+			<feature name="Realizations"/>
+		</and>
+		<and name="RabbitMQ">
+			<and name="Protocol">
+				<feature name="Advanced Message Queuing Protocol [AMQP]"/>
+			</and>
+			<and name="routing logic">
+				<feature name="topic-based exchange"/>
+				<feature name="content-based exchange"/>
+				<feature name="custom exchanges via API">
+					<description>Since RabbitMQ provides an API to create additional exchanges, routing logic can be anything you need. For example, the RabbitMQ community has provided additional exchange definitions, most importantly support for load balancing [3, 28].</description>
+				</feature>
+				<feature name="Alternate Exchange">
+					<description>Another relevant and useful feature in RabbitMQ is Alternate Exchange which allows clients to handle messages that an exchange was unable to route (i.e. either because there were no bound queues our no matching bindings)</description>
+				</feature>
+			</and>
+			<and name="delivery guarantees">
+				<feature name="least once [without order conservation]"/>
+			</and>
+			<feature name="ordering guarantees">
+				<description>RabbitMQ will conserve order for flows3 using a single AMQP channel. It also reorders retransmitted packets inside its queue logic so that a consumer does not need to resequence buffers. This implies that if a load-balancer would be used in front of RabbitMQ (e.g. to reach the scalability of what can be accomplished inside Kafka with partitions), packets that leave the load-balancer on different channels will have no ordering relation anymore.</description>
+			</feature>
+			<and name="availability">
+				<feature name="replication"/>
+			</and>
+			<feature name="transactions"/>
+			<feature name="multicast"/>
+			<and name="dynamic scaling">
+				<feature name="nodes"/>
+			</and>
+			<and name="Standardized Protocol">
+				<feature name="AMQP"/>
+			</and>
+			<and name="Multi-protocol">
+				<feature name="STOMP"/>
+				<feature name="MQTT"/>
+			</and>
+			<feature name="Distributed Topology Modes"/>
+			<and name="Comprehensive Management and Monitoring Tools">
+				<feature name="connections"/>
+				<feature name="queues"/>
+				<feature name="exchanges"/>
+				<feature name="clustering"/>
+				<feature name="federation"/>
+				<feature name="shoveling"/>
+				<feature name="packet tracing"/>
+				<feature name="resource consumption"/>
+			</and>
+			<feature name="Multi-tenancy and Isolation"/>
+			<feature name="Consumer Tracking"/>
+			<feature name="Disk-less Use"/>
+			<feature name="Publisher Flow Control"/>
+			<feature name="Queue Size Limits"/>
+			<feature name="Message TTL"/>
+		</and>
+		<and name="Apache Kafka">
+			<and name="routing logic [2]">
+				<feature name="topic-based exchange [basic]"/>
+			</and>
+			<and name="delivery guarantees [2]">
+				<feature name="least once [with order conservation]"/>
+			</and>
+			<feature name="ordering guarantees [2]">
+				<description>Kafka will conserve order only inside a partition. Furthermore, within a partition, Kafka guaran- tees that a batch of messages either all pass or all fail together. However, to conserve inter-batch order, the producer needs to guarantee that at most 1 produce request is outstanding, which will impact maximum performance</description>
+			</feature>
+			<and name="availability [2]">
+				<feature name="replication [2]"/>
+			</and>
+			<feature name="multicast [2]"/>
+			<and name="dynamic scaling [2]">
+				<feature name="partitions"/>
+				<feature name="nodes [2]"/>
+			</and>
+			<feature name="Long Term Message Storage"/>
+			<feature name="Message Replay"/>
+			<feature name="Kafka Connect"/>
+			<feature name="Log Compaction"/>
+		</and>
+	</and>
+</struct>
+</featureModel>

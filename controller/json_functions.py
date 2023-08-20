@@ -26,4 +26,4 @@ def load_json_data(tree):
         for entry in data:
             populate_tree(tree, "", entry)
     else:
-        print("No JSON file selected.d")
+        print("No JSON file selected.")

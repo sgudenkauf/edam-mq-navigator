@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="vertical"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="4"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="EDAM-MQ">
+			<graphics key="collapsed" value="false"/>
+			<and mandatory="true" name="Use Case">
+				<description>ededde</description>
+				<graphics key="collapsed" value="false"/>
+				<feature name="Activity Tracking">
+					<description>A Description</description>
+				</feature>
+				<feature name="User Notification"/>
+				<feature name="Metrics Logging"/>
+				<feature name="Commit Logging"/>
+				<feature name="Stream Processing"/>
+				<feature name="Industrial Edge Device Connectivity"/>
+			</and>
+			<and mandatory="true" name="Architecture Overview">
+				<graphics key="collapsed" value="false"/>
+				<and name="System Deployment">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Cloud Hosting"/>
+					<feature name="On-Premise"/>
+				</and>
+				<and name="Cluster Management">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Load Balancing"/>
+					<feature name="Failure Prevention"/>
+					<feature name="Local Network Server Clustering"/>
+					<feature name="Replication"/>
+				</and>
+				<and name="System Component">
+					<graphics key="collapsed" value="false"/>
+					<and name="Broker">
+						<graphics key="collapsed" value="false"/>
+						<feature abstract="true" name="Master-Slave"/>
+						<feature abstract="true" name="Peer-to-Peer"/>
+					</and>
+					<feature name="Configuration Store"/>
+					<feature name="Metadata Store"/>
+					<feature name="Message Store"/>
+					<and name="Management UI">
+						<and name="Status Monitoring">
+							<graphics key="collapsed" value="false"/>
+							<feature abstract="true" name="Machine-centered View"/>
+							<feature abstract="true" name="Order-centered View"/>
+						</and>
+						<feature name="System Configuration"/>
+						<feature name="User Management"/>
+						<feature name="Permission Management"/>
+						<feature name="Queue/Topic Management"/>
+						<feature name="Message Exchange Management"/>
+					</and>
+				</and>
+				<and name="Application Protocol">
+					<graphics key="collapsed" value="false"/>
+					<feature name="Native Protocol"/>
+					<feature name="Supported Protocol"/>
+				</and>
+				<and name="Client Type">
+					<graphics key="collapsed" value="false"/>
+					<and name="Producer">
+						<graphics key="collapsed" value="false"/>
+						<feature abstract="true" name="Shared Access"/>
+						<feature abstract="true" name="Exclusive Access"/>
+						<feature abstract="true" name="Exclusive w/ Fencing"/>
+						<feature abstract="true" name="Wait For Exclusive"/>
+					</and>
+					<feature name="Consumer"/>
+					<feature name="Reader"/>
+				</and>
+				<and name="Message Queuing">
+					<graphics key="collapsed" value="false"/>
+					<and name="Communication">
+						<graphics key="collapsed" value="false"/>
+						<feature abstract="true" name="Point-to-Point"/>
+						<feature abstract="true" name="Publish-Subscribe"/>
+					</and>
+					<and name="Interaction/Send Mode">
+					<graphics key="collapsed" value="false"/>
+					<feature abstract="true" name="Request-Reply"/>
+					<feature abstract="true" name="Fire-and-Forget"/>
+				</and>
+				<and name="Queue Model">
+					<graphics key="collapsed" value="false"/>
+					<feature abstract="true" name="Hierarchical"/>
+					<feature abstract="true" name="Non-Hierarchical"/>
+				</and>
+				<and name="Message Consumption Model">
+					<graphics key="collapsed" value="false"/>
+					<feature abstract="true" name="Push"/>
+					<feature abstract="true" name="Pull"/>
+				</and>
+			</and>
+		</and>
+		<and mandatory="true" name="System Realization">
+			<graphics key="collapsed" value="false"/>
+			<and name="System Compatibility">
+				<graphics key="collapsed" value="false"/>
+				<feature name="Cloud Provider"/>
+				<and name="Local IT System">
+					<feature name="Data Storage"/>
+					<feature name="Data Processing"/>
+					<feature name="IoT Application"/>
+					<feature name="Data Analytics"/>
+				</and>
+				<feature name="Client Library/API"/>
+				<feature name="Command Line Interface"/>
+				<feature name="Stream Processing API"/>
+			</and>
+			<and name="Edge Connectivity/Device Management">
+			<graphics key="collapsed" value="false"/>
+			<feature name="Reconnect Handling"/>
+			<feature name="Connection Status Monitoring"/>
+			<feature name="Device Logging"/>
+			<and name="Message Conversion">
+				<graphics key="collapsed" value="false"/>
+				<feature abstract="true" name="Message-to-Device"/>
+				<feature abstract="true" name="Device-to-Message"/>
+			</and>
+			<feature name="Event Filtering"/>
+			<feature name="Event Transformation/Aggregation"/>
+			<feature name="Bus/Protocol Support"/>
+		</and>
+		<and name="Licensing">
+			<graphics key="collapsed" value="false"/>
+			<feature name="License Name"/>
+			<and name="License Type">
+				<graphics key="collapsed" value="false"/>
+				<feature abstract="true" name="Closed Source"/>
+				<feature abstract="true" name="Open Source"/>
+			</and>
+		</and>
+		<and name="Implementation">
+			<graphics key="collapsed" value="false"/>
+			<feature name="Programming Language"/>
+			<feature name="Platform/Operating System"/>
+			<feature name="Release Information"/>
+			<feature name="Developer Information"/>
+			<feature name="Community Support"/>
+			<feature name="Documentation"/>
+		</and>
+	</and>
+	<and mandatory="true" name="Quality of Service">
+		<graphics key="collapsed" value="false"/>
+		<and name="Message Guarantees">
+			<graphics key="collapsed" value="false"/>
+			<and name="Message Delivery">
+				<graphics key="collapsed" value="false"/>
+				<feature abstract="true" name="Maybe"/>
+				<feature abstract="true" name="At Most Once"/>
+				<feature abstract="true" name="At Least Once"/>
+				<feature abstract="true" name="Exactly Once"/>
+			</and>
+			<and name="Message Ordering">
+				<graphics key="collapsed" value="false"/>
+				<feature abstract="true" name="no-ordering"/>
+				<feature abstract="true" name="partition ordering"/>
+				<feature abstract="true" name="queue ordering"/>
+				<feature abstract="true" name="global ordering"/>
+				<feature abstract="true" name="relative key-based ordering"/>
+			</and>
+		</and>
+		<and name="Security Mechanism">
+			<graphics key="collapsed" value="false"/>
+			<feature name="Encryption"/>
+			<feature name="Authentication"/>
+			<feature name="Authorization"/>
+		</and>
+		<and name="Performance Mechanism">
+			<graphics key="collapsed" value="false"/>
+			<and name="Latency Management">
+				<graphics key="collapsed" value="false"/>
+				<feature abstract="true" name="Memory Access"/>
+			</and>
+			<and name="Throughput Management">
+				<graphics key="collapsed" value="false"/>
+				<feature abstract="true" name="Message Batching"/>
+				<feature abstract="true" name="Queue Partitioning"/>
+			</and>
+			<and name="Scalability Management">
+				<graphics key="collapsed" value="false"/>
+				<feature abstract="true" name="Quota"/>
+			</and>
+		</and>
+		<and name="Reliability Mechanism">
+			<graphics key="collapsed" value="false"/>
+			<feature name="Message Delivery Acknowledgements"/>
+			<and name="Message Persistency Management">
+				<graphics key="collapsed" value="false"/>
+				<feature abstract="true" name="In Memory"/>
+				<feature abstract="true" name="On Disk"/>
+			</and>
+			<feature name="Load-balancing Groups"/>
+		</and>
+	</and>
+</and>
+</struct>
+</featureModel>

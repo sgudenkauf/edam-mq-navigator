@@ -1,0 +1,679 @@
+[
+    {
+        "name": "EDAM-MQ",
+        "description": "",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Use Case",
+                "description": "ededde",
+                "color": "#FF9933",
+                "children": [
+                    {
+                        "name": "Activity Tracking",
+                        "description": "A Description",
+                        "color": "#FF9933"
+                    },
+                    {
+                        "name": "User Notification",
+                        "description": "",
+                        "color": "#FFFFFF"
+                    },
+                    {
+                        "name": "Metrics Logging",
+                        "description": "",
+                        "color": "#FFFFFF"
+                    },
+                    {
+                        "name": "Commit Logging",
+                        "description": "",
+                        "color": "#FFFFFF"
+                    },
+                    {
+                        "name": "Stream Processing",
+                        "description": "",
+                        "color": "#FFFFFF"
+                    },
+                    {
+                        "name": "Industrial Edge Device Connectivity",
+                        "description": "",
+                        "color": "#FFFFFF"
+                    }
+                ]
+            },
+            {
+                "name": "Architecture Overview",
+                "description": "",
+                "color": "#FFFFFF",
+                "children": [
+                    {
+                        "name": "System Deployment",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Cloud Hosting",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "On-Premise",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cluster Management",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Load Balancing",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Failure Prevention",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Local Network Server Clustering",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Replication",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "System Component",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Broker",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Master-Slave",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Peer-to-Peer",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Management UI",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Status Monitoring",
+                                        "description": "",
+                                        "color": "#FFFFFF",
+                                        "children": [
+                                            {
+                                                "name": "Machine-centered View",
+                                                "description": "",
+                                                "color": "#FFFFFF"
+                                            },
+                                            {
+                                                "name": "Order-centered View",
+                                                "description": "",
+                                                "color": "#FFFFFF"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "System Configuration",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "User Management",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Permission Management",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Queue/Topic Management",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Message Exchange Management",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Configuration Store",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Metadata Store",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Message Store",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Application Protocol",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Native Protocol",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Supported Protocol",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Client Type",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Producer",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Shared Access",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Exclusive Access",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Exclusive w/ Fencing",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Wait For Exclusive",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Consumer",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Reader",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Message Queuing",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Communication",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Point-to-Point",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Publish-Subscribe",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Interaction/Send Mode",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Request-Reply",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Fire-and-Forget",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Queue Model",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Hierarchical",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Non-Hierarchical",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Message Consumption Model",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Push",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Pull",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "System Realization",
+                "description": "",
+                "color": "#FFFFFF",
+                "children": [
+                    {
+                        "name": "System Compatibility",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Local IT System",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Data Storage",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Data Processing",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "IoT Application",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Data Analytics",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Cloud Provider",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Client Library/API",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Command Line Interface",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Stream Processing API",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Edge Connectivity/Device Management",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Message Conversion",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Message-to-Device",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Device-to-Message",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Reconnect Handling",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Connection Status Monitoring",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Device Logging",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Event Filtering",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Event Transformation/Aggregation",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Bus/Protocol Support",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Licensing",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "License Type",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Closed Source",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Open Source",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "License Name",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Implementation",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Programming Language",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Platform/Operating System",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Release Information",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Developer Information",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Community Support",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Documentation",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Quality of Service",
+                "description": "",
+                "color": "#FFFFFF",
+                "children": [
+                    {
+                        "name": "Message Guarantees",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Message Delivery",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Maybe",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "At Most Once",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "At Least Once",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Exactly Once",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Message Ordering",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "no-ordering",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "partition ordering",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "queue ordering",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "global ordering",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "relative key-based ordering",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Security Mechanism",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Encryption",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Authentication",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Authorization",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Performance Mechanism",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Latency Management",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Memory Access",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Throughput Management",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Message Batching",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "Queue Partitioning",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Scalability Management",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "Quota",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reliability Mechanism",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "children": [
+                            {
+                                "name": "Message Persistency Management",
+                                "description": "",
+                                "color": "#FFFFFF",
+                                "children": [
+                                    {
+                                        "name": "In Memory",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    },
+                                    {
+                                        "name": "On Disk",
+                                        "description": "",
+                                        "color": "#FFFFFF"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Message Delivery Acknowledgements",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            },
+                            {
+                                "name": "Load-balancing Groups",
+                                "description": "",
+                                "color": "#FFFFFF"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

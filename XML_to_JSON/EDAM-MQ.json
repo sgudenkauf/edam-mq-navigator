@@ -12,32 +12,38 @@
                     {
                         "name": "Activity Tracking",
                         "description": "A Description",
-                        "color": "#FF9933"
+                        "color": "#FF9933",
+                        "children": []
                     },
                     {
                         "name": "User Notification",
                         "description": "",
-                        "color": "#FFFFFF"
+                        "color": "#FFFFFF",
+                        "children": []
                     },
                     {
                         "name": "Metrics Logging",
                         "description": "",
-                        "color": "#FFFFFF"
+                        "color": "#FFFFFF",
+                        "children": []
                     },
                     {
                         "name": "Commit Logging",
                         "description": "",
-                        "color": "#FFFFFF"
+                        "color": "#FFFFFF",
+                        "children": []
                     },
                     {
                         "name": "Stream Processing",
                         "description": "",
-                        "color": "#FFFFFF"
+                        "color": "#FFFFFF",
+                        "children": []
                     },
                     {
                         "name": "Industrial Edge Device Connectivity",
                         "description": "",
-                        "color": "#FFFFFF"
+                        "color": "#FFFFFF",
+                        "children": []
                     }
                 ]
             },
@@ -54,12 +60,14 @@
                             {
                                 "name": "Cloud Hosting",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "On-Premise",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     },
@@ -71,22 +79,26 @@
                             {
                                 "name": "Load Balancing",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Failure Prevention",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Local Network Server Clustering",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Replication",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     },
@@ -103,12 +115,14 @@
                                     {
                                         "name": "Master-Slave",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Peer-to-Peer",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
@@ -125,56 +139,66 @@
                                             {
                                                 "name": "Machine-centered View",
                                                 "description": "",
-                                                "color": "#FFFFFF"
+                                                "color": "#FFFFFF",
+                                                "children": []
                                             },
                                             {
                                                 "name": "Order-centered View",
                                                 "description": "",
-                                                "color": "#FFFFFF"
+                                                "color": "#FFFFFF",
+                                                "children": []
                                             }
                                         ]
                                     },
                                     {
                                         "name": "System Configuration",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "User Management",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Permission Management",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Queue/Topic Management",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Message Exchange Management",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
                             {
                                 "name": "Configuration Store",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Metadata Store",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Message Store",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     },
@@ -186,12 +210,14 @@
                             {
                                 "name": "Native Protocol",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Supported Protocol",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     },
@@ -208,34 +234,40 @@
                                     {
                                         "name": "Shared Access",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Exclusive Access",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Exclusive w/ Fencing",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Wait For Exclusive",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
                             {
                                 "name": "Consumer",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Reader",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     },
@@ -252,12 +284,14 @@
                                     {
                                         "name": "Point-to-Point",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Publish-Subscribe",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
@@ -269,12 +303,14 @@
                                     {
                                         "name": "Request-Reply",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Fire-and-Forget",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
@@ -286,12 +322,14 @@
                                     {
                                         "name": "Hierarchical",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Non-Hierarchical",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
@@ -303,12 +341,14 @@
                                     {
                                         "name": "Push",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Pull",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             }
@@ -334,44 +374,52 @@
                                     {
                                         "name": "Data Storage",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Data Processing",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "IoT Application",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Data Analytics",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
                             {
                                 "name": "Cloud Provider",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Client Library/API",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Command Line Interface",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Stream Processing API",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     },
@@ -388,44 +436,52 @@
                                     {
                                         "name": "Message-to-Device",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Device-to-Message",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
                             {
                                 "name": "Reconnect Handling",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Connection Status Monitoring",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Device Logging",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Event Filtering",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Event Transformation/Aggregation",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Bus/Protocol Support",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     },
@@ -442,19 +498,22 @@
                                     {
                                         "name": "Closed Source",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Open Source",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
                             {
                                 "name": "License Name",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     },
@@ -466,32 +525,38 @@
                             {
                                 "name": "Programming Language",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Platform/Operating System",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Release Information",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Developer Information",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Community Support",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Documentation",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     }
@@ -515,22 +580,26 @@
                                     {
                                         "name": "Maybe",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "At Most Once",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "At Least Once",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Exactly Once",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
@@ -542,27 +611,32 @@
                                     {
                                         "name": "no-ordering",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "partition ordering",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "queue ordering",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "global ordering",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "relative key-based ordering",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             }
@@ -576,17 +650,20 @@
                             {
                                 "name": "Encryption",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Authentication",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Authorization",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     },
@@ -603,7 +680,8 @@
                                     {
                                         "name": "Memory Access",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
@@ -615,12 +693,14 @@
                                     {
                                         "name": "Message Batching",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "Queue Partitioning",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
@@ -632,7 +712,8 @@
                                     {
                                         "name": "Quota",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             }
@@ -651,24 +732,28 @@
                                     {
                                         "name": "In Memory",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     },
                                     {
                                         "name": "On Disk",
                                         "description": "",
-                                        "color": "#FFFFFF"
+                                        "color": "#FFFFFF",
+                                        "children": []
                                     }
                                 ]
                             },
                             {
                                 "name": "Message Delivery Acknowledgements",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             },
                             {
                                 "name": "Load-balancing Groups",
                                 "description": "",
-                                "color": "#FFFFFF"
+                                "color": "#FFFFFF",
+                                "children": []
                             }
                         ]
                     }
